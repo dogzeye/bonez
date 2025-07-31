@@ -1,0 +1,28 @@
+<settings>
+    <category label="Buy Me a Beer">
+        <setting type="lsep" label="Support the mods of this killer addon"/>
+        <setting type="label" label="If you like this addon, please consider supporting it."/>
+        <setting type="label" label="cash app: $islandsflavor"/>
+     </category>
+     
+    <category label="General">
+        <setting id="mode" type="enum" label="Default Mode" default="0" values="Live Sports|Live TV" />
+
+        <setting id="time_format" type="enum" label="Time Format" default="0" values="12-hour (Standard)|24-hour (Military)" />
+    </category>
+
+    <category label="Advanced">
+        <setting id="debug_log" type="bool" label="Enable Debug Logging" default="false" />
+    </category>
+
+     <category label="FAQ">
+        <setting type="lsep" label="~common help items~"/>
+        <setting type="label" label="links fail, check TLS in router or use VPN"/>
+        <setting type="label" label="add to favs folder, push and hold select, then toggle "/>
+        <setting type="label" label="use filter for searching within json lists"/>
+        <setting type="label" label="use the following link to establish URL resolving as needed"/>
+        <setting type="label" label="http://real-debrid.com/?id=2656221"/>
+        <setting type="label" label="this program searches for links publicly available across the web, no material is stored by this app for presentation to anyone, use at your own risk, for research and demonstration purposes only"/>
+    </category>
+    
+</settings>
